@@ -1,7 +1,8 @@
 package org.buildozers.app.implementations;
 
 import org.buildozers.app.interfaces.Calculator;
-import org.buildozers.injector.Label;
+// TODO: remove this comment when the annotation is implemented
+// import org.buildozers.injector.Label;
 
 /**
  * This is a lazy calculator implementation, always returning 0.
