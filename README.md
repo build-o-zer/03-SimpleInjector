@@ -14,7 +14,7 @@ This is meant to be a coding dojo to practice the following concepts:
 
 ## How to implement
 
-1. create the two annotations called 
+1. in the package `injector`, create the two annotations called 
     - `@InjectDependency`  to mark the fields that will be injected
     - `@Label` to mark the class as an injectable class
     - each annotation should have a String `value` attribute to specify the name of the dependency to be injected.
