@@ -7,7 +7,8 @@ import org.buildozers.injector.Label;
  * This is a lazy calculator implementation, always returning 0.
  */
 
-@Label("lazy")
+// TODO: remove this comment when the annotation is implemented
+// @Label("lazy")
 public class LazyCalculator implements Calculator {
 
     @Override

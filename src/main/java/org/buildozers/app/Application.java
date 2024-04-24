@@ -1,11 +1,13 @@
 package org.buildozers.app;
 
 import org.buildozers.app.interfaces.Calculator;
-import org.buildozers.injector.InjectDependency;
+// TODO: remove this comment when the annotation is implemented
+// import org.buildozers.injector.InjectDependency; 
 
 public class Application implements Runnable {
 
-    @InjectDependency
+    // TODO: remove the following comment when the annotation is implemented
+    //@InjectDependency
     private Calculator calculator;
 
     @Override

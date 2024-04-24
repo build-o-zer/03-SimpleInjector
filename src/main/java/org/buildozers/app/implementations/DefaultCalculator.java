@@ -1,13 +1,16 @@
 package org.buildozers.app.implementations;
 
 import org.buildozers.app.interfaces.Calculator;
-import org.buildozers.injector.Label;
+
+// TODO: remove this comment when the annotation is implemented
+// import org.buildozers.injector.Label;
 
 /**
  * This is the default calculator implementation.
  */
 
-@Label("default")
+// TODO: remove this comment when the annotation is implemented
+// @Label("default") // or no Label annotation as it is the default implementation
 public class DefaultCalculator implements Calculator {
 
     @Override
