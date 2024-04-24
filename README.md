@@ -1,5 +1,7 @@
 # 03-SimpleInjector
 
+[![CodeFactor](https://www.codefactor.io/repository/github/build-o-zer/03-simpleinjector/badge/correction)](https://www.codefactor.io/repository/github/build-o-zer/03-simpleinjector/overview/correction)
+
 ## Description
 
 This project is a simple example of how to code a simple DI framework library to inject dependencies into Java classes.
@@ -10,7 +12,8 @@ This is meant to be a coding dojo to practice the following concepts:
 - Dependency Injection
 - Java Generics
 - Java Stream API
-- Java Optional API    
+- Java Optional API   
+
 
 ## How to implement
 
