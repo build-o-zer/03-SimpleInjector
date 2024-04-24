@@ -17,6 +17,10 @@ This is meant to be a coding dojo to practice the following concepts:
 
 ## How to implement
 
+Your initial state :
+
+![img.png](schema.png)
+
 1. in the package `injector`, create the two annotations called 
     - `@InjectDependency`  to mark the fields that will be injected
     - `@Label` to mark the class as an injectable class
