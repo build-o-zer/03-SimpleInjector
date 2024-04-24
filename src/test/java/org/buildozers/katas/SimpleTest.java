@@ -8,15 +8,12 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-class Kata01Test {
+class SimpleTest {
 
     @Test
-    @DisplayName("Exercice 01 - DaysBetweenDates ")
-    void test() {
-
+    @DisplayName("Given a date, when now, then return the current date (this is a dumb test)")
+    void dumbTest() {
         LocalDate now = LocalDate.now();
-
         assertThat(now).isNotNull();
-
     }
 }

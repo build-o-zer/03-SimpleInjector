@@ -1,14 +1,9 @@
 package org.buildozers.injector;
 
-import io.github.classgraph.ClassGraph;
-import io.github.classgraph.ClassInfoList;
-import io.github.classgraph.ScanResult;
 import lombok.experimental.UtilityClass;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
-import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
@@ -25,7 +20,7 @@ import java.util.stream.Stream;
 @UtilityClass
 public class DependencyInjector {
 
-    // Map of interfaces and their implementations. *
+    // Map of interfaces and their implementations. 
     // An implementation is identified by a @Label annotation and its value field.
     private static Map<Class<?>, Map<String, Class<?>>> implementations;
 

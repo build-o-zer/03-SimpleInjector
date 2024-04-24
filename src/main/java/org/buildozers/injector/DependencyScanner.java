@@ -12,6 +12,7 @@ import lombok.experimental.UtilityClass;
 
 /**
  * This class is responsible for scanning the packages and registering the classes that implement the interfaces.
+ * This class is only used by the {@link DependencyInjector} class. It has package visibility only.
  */
 @UtilityClass
 class DependencyScanner {
