@@ -32,7 +32,7 @@ public class DependencyInjector {
         // precondition 1 : check that the register method has been called, so the implementations map is not null
         // precondition 2 : check that the class "clazz" is not null
 
-        // 1- create a new instance of the class "clazz" using java reflection API
+        // 1- create a new instance of the class "clazz" using java reflection API, using the default constructor with no arguments.
         // 2- resolve the dependencies of the instance by injecting the implementations of the interfaces. tip : call resolveDependencies
         // 3- return the instance
 

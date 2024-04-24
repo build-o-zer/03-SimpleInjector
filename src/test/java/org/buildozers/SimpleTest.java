@@ -1,4 +1,4 @@
-package org.buildozers.katas;
+package org.buildozers;
 
 import java.time.LocalDate;
 
